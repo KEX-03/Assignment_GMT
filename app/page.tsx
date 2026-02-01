@@ -1,8 +1,30 @@
+import { SectionEight } from "@/components/SectionEight";
+import { SectionFive } from "@/components/SectionFive";
+import { SectionFour } from "@/components/SectionFour";
+import { SectionSeven } from "@/components/SectionSeven";
+import { SectionSix } from "@/components/SectionSix";
+import { SectionThree } from "@/components/SectionThree";
+import { SectionTwo } from "@/components/SectionTwo";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+
 export default function Home() {
   return (
+    <>  
+    <Header />    
     <main className="w-full">
       <HeroSection />
+      <SectionTwo />
+      <SectionThree />
+      <SectionFour /> 
+      <SectionFive />
+      <SectionSix />
+      <SectionSeven />
+      <SectionEight />
     </main>
+    <Footer />
+    </>
+
   );
 }
 
@@ -14,7 +36,7 @@ function HeroSection() {
         {/* Image */}
         <div className="flex justify-center">
           <div
-            className="relative w-full max-w-md h-[500px] lg:h-[650px] overflow-hidden"
+            className="relative w-full max-w-md h-125 lg:h-162.5 overflow-hidden"
             style={{
               clipPath:
                 "path('M0.495 0A0.505 0.336 0 0 0 0 0.329V1H1V0.329A0.505 0.336 0 0 0 0.495 0')",
