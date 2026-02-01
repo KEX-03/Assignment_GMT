@@ -7,6 +7,7 @@ import { SectionThree } from "@/components/SectionThree";
 import { SectionTwo } from "@/components/SectionTwo";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import OurOffice from "@/components/OurOffice";
 
 export default function Home() {
   return (
@@ -16,8 +17,9 @@ export default function Home() {
       <HeroSection />
       <SectionTwo />
       <SectionThree />
-      <SectionFour /> 
       <SectionFive />
+      <SectionFour />
+      <OurOffice /> 
       <SectionSix />
       <SectionSeven />
       <SectionEight />
@@ -35,15 +37,9 @@ function HeroSection() {
         
         {/* Image */}
         <div className="flex justify-center">
-          <div
-            className="relative w-full max-w-md h-125 lg:h-162.5 overflow-hidden"
-            style={{
-              clipPath:
-                "path('M0.495 0A0.505 0.336 0 0 0 0 0.329V1H1V0.329A0.505 0.336 0 0 0 0.495 0')",
-            }}
-          >
+          <div className="relative w-full max-w-md h-125 lg:h-162.5 overflow-hidden rounded-3xl">
             <img
-              src="https://images.squarespace-cdn.com/content/v1/65d10c6adcfabe1819ed4e07/08197a74-c045-4a19-a7c9-0f85c1032bc4/daiga-ellaby-M2P08N9zi2k-unsplash.jpg"
+              src="https://plus.unsplash.com/premium_photo-1665990294064-d601f29f2fca?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Therapy"
               className="absolute inset-0 h-full w-full object-cover"
             />
@@ -52,21 +48,29 @@ function HeroSection() {
 
         {/* Content */}
         <div className="text-center lg:text-left flex flex-col items-center lg:items-start gap-6">
+          <div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif leading-tight">
-            Live your life <br /> in full bloom
+            Live your life 
+            <br /> 
+            in full bloom
           </h1>
 
           <p className="text-lg text-gray-600">
-            Therapy for Adults in Minneapolis, MN.
+            Therapy for adults in Santa Monica, California
+            <br />
+            Supporting anxiety, trauma, and burnout with care and depth.
           </p>
-
+          </div>
+          <div className="flex justify-center items-center">
           <a
             href="#"
-            className="inline-block mt-4 px-8 py-3 rounded-full bg-black text-white text-sm tracking-wide hover:bg-gray-800 transition"
-          >
+            className="inline-block mt-4 px-8 py-3 rounded-full bg-accent text-white text-sm tracking-wide hover:bg-primary/90 transition"
+            >
             Connect with me
           </a>
-        </div>
+
+          </div>
+              </div>
       </div>
     </section>
   );

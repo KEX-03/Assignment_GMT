@@ -6,14 +6,18 @@ export function FooterTop() {
 
           {/* Left — Business Info */}
           <div>
+            <h3 className="font-serif text-4xl mb-4">
+              BloomLife
+            </h3>
+
             <h3 className="font-serif text-2xl mb-4">
-              Lilac Template
+              Dr. Maya Reynolds, PsyD
             </h3>
 
             <p className="text-textMuted leading-relaxed">
-              123 Example Road
+              123th Street 45 W,
               <br />
-              Minneapolis, MN
+              Santa Monica, CA 90401
               <br />
               <br />
               <a

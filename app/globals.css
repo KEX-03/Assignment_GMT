@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+.hero-clip {
+  clip-path: path("M0.495 0A0.505 0.336 0 0 0 0 0.329V1H1V0.329A0.505 0.336 0 0 0 0.495 0");
+}
+
+@theme {
+  --color-primary: #3A5F5A;
+  --color-secondary: #F4F1EC;
+  --color-accent: #C48A6A;
+}

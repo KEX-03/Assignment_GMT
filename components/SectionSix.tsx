@@ -1,35 +1,29 @@
 const faqs = [
   {
     question: "Do you take insurance?",
-    answer: "Answer goes here.",
+    answer: "I am an out-of-network provider. I can provide documentation for clients who wish to seek reimbursement from their insurance company.",
   },
   {
     question: "What are your rates?",
-    answer: "Answer goes here.",
+    answer: "Session fees vary depending on the type of service. Please reach out directly for current rates and availability.",
   },
   {
     question: "Do you have any openings?",
-    answer: "Answer goes here.",
+    answer: "Availability changes periodically. I encourage you to contact me to inquire about current openings or to join a waitlist.",
   },
 ];
 
 export function SectionSix() {
   return (
-    <section className="w-full bg-white">
+    <section className="w-full bg-secondary">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
 
           {/* Image */}
-          <div
-            className="w-full max-w-md h-110 overflow-hidden"
-            style={{
-              clipPath:
-                "path('M0.495 0A0.505 0.336 0 0 0 0 0.329V1H1V0.329A0.505 0.336 0 0 0 0.495 0')",
-            }}
-          >
+          <div className="w-full max-w-md h-110 overflow-hidden rounded-3xl">
             <img
-              src="https://images.squarespace-cdn.com/content/v1/65d10c6adcfabe1819ed4e07/3a7e28f0-28fd-47cd-9857-6c415afed795/myxa69-APKZU4NJcgs-unsplash.jpg"
-              alt=""
+              src="https://images.unsplash.com/photo-1637580678284-da66cab7cd95?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="FAQs"
               className="w-full h-full object-cover"
             />
           </div>

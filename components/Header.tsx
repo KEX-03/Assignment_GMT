@@ -28,7 +28,7 @@ export function Header() {
               href="/"
               className="font-serif text-xl tracking-wide"
             >
-              Lilac Template
+              BloomLife
             </Link>
           </div>
 

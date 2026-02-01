@@ -19,21 +19,9 @@ export function FooterBottom() {
           </a>
         </p>
 
-        {/* Credits */}
-        <p className="text-xs text-textMuted mb-4">
-          Website Template Credits:{" "}
-          <a
-            href="https://www.gobloomcreative.com/"
-            target="_blank"
-            className="hover:underline"
-          >
-            Go Bloom Creative
-          </a>
-        </p>
-
         {/* Copyright */}
         <p className="text-xs text-textMuted">
-          All Rights Reserved © 2024 Your Business Name Here, LLC.
+          All Rights Reserved © 2024 Grow My Therapy, LLC.
         </p>
 
       </div>

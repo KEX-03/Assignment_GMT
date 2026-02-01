@@ -2,23 +2,23 @@ const backgroundItems = [
   {
     title: "Education",
     content:
-      "Euphorbia dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea.",
+      "Doctor of Psychology (PsyD) in Clinical Psychology, with advanced training in trauma-informed care and evidence-based treatment approaches.",
   },
   {
     title: "Licensure",
     content:
-      "Euphorbia dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea.",
+      "Licensed Clinical Psychologist in California with a focus on providing compassionate, evidence-based care to adults.",
   },
   {
     title: "Certifications",
     content:
-      "Euphorbia dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea.",
+      "Ongoing training in EMDR, mindfulness-based interventions, and body-oriented therapeutic techniques.",
   },
 ];
 
 export function SectionSeven() {
   return (
-    <section className="w-full bg-secondary">
+    <section className="w-full bg-white">
       <div className="max-w-3xl mx-auto px-6 py-24">
 
         {/* Heading */}

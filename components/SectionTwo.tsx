@@ -7,17 +7,17 @@ export function SectionTwo() {
           {/* Text */}
           <div className="flex flex-col gap-6 max-w-xl">
             <h2 className="font-serif text-4xl text-primary leading-tight">
-              Live a fulfilling life.
+              A grounded approach to therapy
             </h2>
 
             <p className="text-textMuted leading-relaxed">
-              Life can be challenging—especially when you're trying to balance
-              your personal and professional life.
+              I work with adults who appear capable and high-functioning on the outside, yet feel overwhelmed, anxious, or emotionally depleted on the inside. 
+              Many of my clients are thoughtful, self-aware, and driven—but struggle with constant overthinking, tension in their body, or the sense that they’re always bracing for something to go wrong.
             </p>
 
             <p className="text-textMuted leading-relaxed">
-              It's easy to feel like you're alone in facing these challenges,
-              but I want you to know that I'm here to help.
+              Therapy can be a space to slow down, feel supported, and begin understanding what your mind and nervous system are responding to. 
+              Together, we work toward clarity, regulation, and more sustainable ways of living and relating to yourself.
             </p>
 
             <a
