@@ -1,7 +1,7 @@
 export default function OurOffice() {
   return (
     <section className="bg-secondary py-20">
-      <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-[2fr_3fr] gap-16 items-center">
+      <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-[1.8fr_3.2fr] gap-20 items-center">
 
         {/* Content */}
         <div className="space-y-6">
@@ -58,7 +58,7 @@ export default function OurOffice() {
 
         {/* Images */}
         <div className="relative grid grid-cols-2 gap-6">
-          <div className="overflow-hidden rounded-2xl">
+          <div className="overflow-hidden rounded-3xl h-[420px] lg:h-[520px]">
             <img
               src="/images/office1.jpeg"
               alt="Therapy office interior with natural light"
@@ -66,7 +66,7 @@ export default function OurOffice() {
             />
           </div>
 
-          <div className="overflow-hidden rounded-2xl translate-y-10">
+          <div className="overflow-hidden rounded-3xl h-[420px] lg:h-[520px] translate-y-14">
             <img
               src="/images/office2.jpeg"
               alt="Calm and private therapy space"
