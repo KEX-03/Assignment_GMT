@@ -22,20 +22,42 @@ export default function OurOffice() {
             them settle, breathe more deeply, and feel present.
           </p>
 
-          <div className="pt-4">
-            <p className="text-sm uppercase tracking-wide text-primary">
-              Office Location
-            </p>
-            <p className="text-base text-textMuted mt-1">
-              123th Street 45 W<br />
-              Santa Monica, CA 90401
-            </p>
+          {/* Supporting Details */}
+          <div className="pt-4 space-y-4 max-w-xl">
+            <div>
+              <p className="text-sm uppercase tracking-wide text-primary">
+                Office Location
+              </p>
+              <p className="text-base text-textMuted mt-1">
+                123th Street 45 W<br />
+                Santa Monica, CA 90401
+              </p>
+            </div>
+
+            <div>
+              <p className="text-sm uppercase tracking-wide text-primary">
+                Session Options
+              </p>
+              <p className="text-base text-textMuted mt-1">
+                In-person sessions are offered in Santa Monica, with the option
+                for secure virtual sessions when preferred.
+              </p>
+            </div>
+
+            <div>
+              <p className="text-sm uppercase tracking-wide text-primary">
+                Your Comfort & Privacy
+              </p>
+              <p className="text-base text-textMuted mt-1">
+                Sessions take place in a quiet, confidential setting designed
+                to support emotional safety, comfort, and discretion.
+              </p>
+            </div>
           </div>
         </div>
 
         {/* Images */}
         <div className="relative grid grid-cols-2 gap-6">
-          {/* Image 1 */}
           <div className="overflow-hidden rounded-2xl">
             <img
               src="/images/office1.jpeg"
@@ -44,7 +66,6 @@ export default function OurOffice() {
             />
           </div>
 
-          {/* Image 2 (slightly offset for depth) */}
           <div className="overflow-hidden rounded-2xl translate-y-10">
             <img
               src="/images/office2.jpeg"
