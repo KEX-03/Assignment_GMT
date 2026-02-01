@@ -16,17 +16,15 @@ const backgroundItems = [
   },
 ];
 
-export function SectionSeven() {
+export function ProfessionalBackground() {
   return (
-    <section className="w-full bg-white">
+    <section className="w-full bg-secondary">
       <div className="max-w-3xl mx-auto px-6 py-24">
 
-        {/* Heading */}
         <h3 className="text-center font-serif text-3xl text-primary mb-12">
           My Professional Background
         </h3>
 
-        {/* Accordion */}
         <div className="divide-y divide-borderSubtle">
           {backgroundItems.map((item) => (
             <details key={item.title} className="group py-4">

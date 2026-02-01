@@ -1,4 +1,4 @@
-export function SectionFive() {
+export function AboutMe() {
   return (
     <section className="w-full bg-secondary">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-24">

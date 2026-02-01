@@ -1,4 +1,4 @@
-export function SectionTwo() {
+export function MyApproach() {
   return (
     <section className="w-full bg-secondary">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-24">
@@ -29,9 +29,9 @@ export function SectionTwo() {
           </div>
 
           {/* Image */}
-          <div className="w-full h-130 lg:h-160 overflow-hidden">
+          <div className="w-full h-130 lg:h-180 rounded-2xl overflow-hidden">
             <img
-              src="https://images.squarespace-cdn.com/content/v1/65d10c6adcfabe1819ed4e07/87fa2310-36df-4a24-a9e9-1b74df73f150/tanya-trukyr-ornZV1YJNNo-unsplash.jpg"
+              src="https://plus.unsplash.com/premium_photo-1664378617229-c61c6fa13d91?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt=""
               className="w-full h-full object-cover"
             />

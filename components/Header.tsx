@@ -8,7 +8,7 @@ export function Header() {
 
   return (
     <>
-      <header className="w-full fixed top-0 z-50 bg-white">
+      <header className="w-full fixed top-0 z-50 bg-white/55 backdrop-blur shadow-md">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 h-16 flex items-center justify-between">
 
           {/* Left — Mobile Burger */}

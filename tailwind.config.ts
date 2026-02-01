@@ -13,8 +13,8 @@ const config: Config = {
         borderSubtle: "#E5E7EB",
       },
       fontFamily: {
-        serif: ["'Source Serif 4'", "serif"],
-        sans: ["Inter", "system-ui", "sans-serif"],
+        serif: ["var(--font-serif)", "serif"],
+        sans: ["var(--font-sans)", "system-ui", "sans-serif"],
       },
     },
   },
