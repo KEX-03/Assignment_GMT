@@ -1,18 +1,34 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 export function OverwhelmSupport() {
   return (
     <section className="w-full bg-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-28">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
 
-          <div className="w-full h-130 lg:h-170 overflow-hidden rounded-3xl">
+          <motion.div
+            className="w-full h-130 lg:h-170 overflow-hidden rounded-3xl"
+            initial={{ opacity: 0, scale: 0.985 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 1, ease: "easeOut" }}
+          >
             <img
               src="https://images.squarespace-cdn.com/content/v1/65d10c6adcfabe1819ed4e07/a77b422e-33ac-47b2-825f-293d33884041/valeriia-miller-5jR4rAMs5tk-unsplash+%281%29.jpg"
               alt=""
               className="w-full h-full object-cover"
             />
-          </div>
-          
-          <div className="max-w-xl flex flex-col gap-6">
+          </motion.div>
+
+          <motion.div
+            className="max-w-xl flex flex-col gap-6"
+            initial={{ opacity: 0, y: 18 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.9, ease: "easeOut" }}
+          >
             <h2 className="font-serif text-4xl text-primary leading-tight">
               Support for Adults Navigating Internal Pressure and Emotional Overload
             </h2>
@@ -37,17 +53,8 @@ export function OverwhelmSupport() {
             <p className="text-textMuted mt-4">
               Therapy offers a space to explore these patterns safely, at a pace that respects your nervous system and lived experience.
             </p>
+          </motion.div>
 
-            {/* <div className="mt-10 flex justify-center lg:justify-center"> 
-              <a
-                  href="/contact"
-                  className="inline-flex px-10 py-4 border border-primary text-primary rounded-full hover:bg-primary hover:text-white transition"
-                  >
-                  Work with me
-                  </a>
-                  </div>
-                  */}
-          </div>
         </div>
       </div>
     </section>

@@ -1,3 +1,7 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 const specialties = [
   {
     title: "Anxiety & Stress Therapy",
@@ -27,19 +31,52 @@ export function Services() {
     <section className="w-full bg-secondary">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-28">
 
-        {/* Section Title */}
-        <p className="text-center font-serif text-4xl text-primary mb-16">
+        <motion.p
+          className="text-center font-serif text-4xl text-primary mb-16"
+          initial={{ opacity: 0, y: 14 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7, ease: "easeOut" }}
+        >
           Areas I support
-        </p>
+        </motion.p>
 
-        {/* Grid */}
-        <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <motion.ul
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-80px" }}
+          variants={{
+            hidden: {},
+            visible: {
+              transition: {
+                staggerChildren: 0.15,
+              },
+            },
+          }}
+        >
           {specialties.map((item) => (
-            <li
+            <motion.li
               key={item.title}
               className="border border-borderSubtle bg-accent/30 p-6 flex flex-col justify-between"
+              variants={{
+                hidden: { opacity: 0, y: 18 },
+                visible: {
+                  opacity: 1,
+                  y: 0,
+                  transition: { duration: 0.7, ease: "easeOut" },
+                },
+              }}
+              whileHover={{
+                  transform: "translateY(-4px)",
+                }}
+              transition={{
+                  type: "tween",
+                  duration: 0.18,
+                  ease: "easeOut",
+                }}
             >
-              {/* Text */}
+
               <div>
                 <h3 className="font-serif text-2xl text-primary">
                   {item.title}
@@ -50,7 +87,6 @@ export function Services() {
                 </p>
               </div>
 
-              {/* Image */}
               <div className="mt-10 flex justify-center">
                 <div className="w-64 h-64 rounded-full overflow-hidden">
                   <img
@@ -60,9 +96,9 @@ export function Services() {
                   />
                 </div>
               </div>
-            </li>
+            </motion.li>
           ))}
-        </ul>
+        </motion.ul>
 
       </div>
     </section>

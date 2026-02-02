@@ -1,3 +1,8 @@
+"use client";
+
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+
 const backgroundItems = [
   {
     title: "Education",
@@ -17,32 +22,70 @@ const backgroundItems = [
 ];
 
 export function ProfessionalBackground() {
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
+
   return (
     <section className="w-full bg-secondary">
-      <div className="max-w-3xl mx-auto px-6 py-24">
-
+      <motion.div
+        className="max-w-3xl mx-auto px-6 py-24"
+        initial={{ opacity: 0, scale: 0.97 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+      >
         <h3 className="text-center font-serif text-3xl text-primary mb-12">
           My Professional Background
         </h3>
 
         <div className="divide-y divide-borderSubtle">
-          {backgroundItems.map((item) => (
-            <details key={item.title} className="group py-4">
-              <summary className="flex cursor-pointer list-none items-center justify-between font-medium text-textPrimary">
-                <span>{item.title}</span>
-                <span className="text-lg transition group-open:rotate-45">
-                  +
-                </span>
-              </summary>
+          {backgroundItems.map((item, index) => {
+            const isOpen = openIndex === index;
 
-              <p className="mt-4 text-textMuted max-w-sm">
-                {item.content}
-              </p>
-            </details>
-          ))}
+            return (
+              <div key={item.title} className="py-4">
+                {/* Trigger */}
+                <button
+                  onClick={() =>
+                    setOpenIndex(isOpen ? null : index)
+                  }
+                  className="w-full flex items-center justify-between text-left font-medium text-textPrimary"
+                >
+                  <span>{item.title}</span>
+
+                  <motion.span
+                    animate={{ rotate: isOpen ? 45 : 0 }}
+                    transition={{ duration: 0.2, ease: "easeOut" }}
+                    className="text-lg"
+                  >
+                    +
+                  </motion.span>
+                </button>
+
+                {/* Content */}
+                <AnimatePresence initial={false}>
+                  {isOpen && (
+                    <motion.div
+                      key="content"
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: "auto", opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      transition={{
+                        height: { duration: 0.28, ease: "easeOut" },
+                        opacity: { duration: 0.2, ease: "easeOut" },
+                      }}
+                      className="overflow-hidden"
+                    >
+                      <p className="mt-4 text-textMuted max-w-sm leading-relaxed">
+                        {item.content}
+                      </p>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+            );
+          })}
         </div>
-
-      </div>
+      </motion.div>
     </section>
   );
 }

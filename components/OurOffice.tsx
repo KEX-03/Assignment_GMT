@@ -1,10 +1,20 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 export default function OurOffice() {
   return (
     <section className="bg-secondary py-20">
       <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-[1.8fr_3.2fr] gap-20 items-center">
 
-        {/* Content */}
-        <div className="space-y-6">
+        {/* Text */}
+        <motion.div
+          className="space-y-6"
+          initial={{ opacity: 0, y: 18 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.9, ease: "easeOut" }}
+        >
           <h2 className="text-4xl sm:text-5xl font-serif text-primary">
             A Calm Space for Healing
           </h2>
@@ -22,7 +32,6 @@ export default function OurOffice() {
             them settle, breathe more deeply, and feel present.
           </p>
 
-          {/* Supporting Details */}
           <div className="pt-4 space-y-4 max-w-xl">
             <div>
               <p className="text-sm uppercase tracking-wide text-primary">
@@ -54,26 +63,59 @@ export default function OurOffice() {
               </p>
             </div>
           </div>
-        </div>
+        </motion.div>
 
         {/* Images */}
-        <div className="relative grid grid-cols-2 gap-6">
-          <div className="overflow-hidden rounded-3xl h-[420px] lg:h-[520px]">
+        <motion.div
+          className="relative grid grid-cols-2 gap-6"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-100px" }}
+          variants={{
+            hidden: {},
+            visible: {
+              transition: {
+                staggerChildren: 0.15,
+              },
+            },
+          }}
+        >
+          <motion.div
+            className="overflow-hidden rounded-3xl h-[420px] lg:h-[520px]"
+            variants={{
+              hidden: { opacity: 0, y: 20 },
+              visible: {
+                opacity: 1,
+                y: 0,
+                transition: { duration: 0.8, ease: "easeOut" },
+              },
+            }}
+          >
             <img
               src="/images/office1.jpeg"
               alt="Therapy office interior with natural light"
               className="w-full h-full object-cover"
             />
-          </div>
+          </motion.div>
 
-          <div className="overflow-hidden rounded-3xl h-[420px] lg:h-[520px] translate-y-14">
+          <motion.div
+            className="overflow-hidden rounded-3xl h-[420px] lg:h-[520px] translate-y-14"
+            variants={{
+              hidden: { opacity: 0, y: 28 },
+              visible: {
+                opacity: 1,
+                y: 14,
+                transition: { duration: 0.9, ease: "easeOut" },
+              },
+            }}
+          >
             <img
               src="/images/office2.jpeg"
               alt="Calm and private therapy space"
               className="w-full h-full object-cover"
             />
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
 
       </div>
     </section>
