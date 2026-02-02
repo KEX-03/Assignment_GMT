@@ -92,7 +92,7 @@ http://localhost:3000
 This project emphasizes restraint and intent over complexity.  
 Every design and animation choice was made to support the content and the emotional context it lives in.
 
-© 2024 KEX-03
+© 2026 KEX-03
 All rights reserved.
 
 
