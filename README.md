@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# BloomLife — Therapist Website Homepage
 
-## Getting Started
+BloomLife is a thoughtfully designed homepage for a fictional therapy practice.  
+The project focuses on calm, accessible design paired with intentional motion to create a sense of safety, clarity, and professionalism.
 
-First, run the development server:
+The goal of this homepage is to demonstrate how layout, typography, and subtle animations can work together to support emotionally sensitive content without overwhelming the user.
+
+---
+
+## ✨ Design & Experience Goals
+
+- Create a **calm, grounded visual language** suitable for a therapy practice
+- Use **motion intentionally**, only where it adds clarity or emotional pacing
+- Avoid flashy or distracting animations
+- Maintain strong **accessibility and performance** standards
+- Ensure the interface feels supportive, not sales-driven
+
+---
+
+## 🧠 Motion & Interaction Philosophy
+
+Animations in this project follow a clear hierarchy:
+
+- **Hero & Section Entrances**  
+  Soft fade and micro-translations guide attention without distraction.
+
+- **Accordion Interactions (FAQ & Background)**  
+  Smooth expanding/collapsing motion improves readability and makes state changes clear.
+
+- **Hover States**  
+  Lightweight CSS-based interactions are used for performance and responsiveness.
+
+- **Footer**  
+  Minimal motion to signal visual closure and stability.
+
+All animations are:
+- Scroll-based
+- Run once
+- Free of looping or attention-grabbing effects
+
+---
+
+## 🛠 Tech Stack
+
+- **Next.js (App Router)**
+- **React**
+- **Tailwind CSS**
+- **Framer Motion**
+
+---
+
+## 📂 Project Structure
+
+components/
+├─ Header.tsx
+├─ HeroSection.tsx
+├─ AboutMe.tsx
+├─ MyApproach.tsx
+├─ Services.tsx
+├─ OverwhelmSupport.tsx
+├─ OurOffice.tsx
+├─ FAQ.tsx
+├─ ProfessionalBackground.tsx
+├─ Contact.tsx
+└─ Footer.tsx
+
+Each section is built as a reusable, self-contained component with consistent styling and motion patterns.
+
+---
+
+## ♿ Accessibility Considerations
+
+- Clear visual hierarchy and readable contrast
+- Keyboard-friendly interactive elements
+- Predictable motion with no sudden transitions
+- Motion kept subtle to respect users sensitive to animation
+
+---
+
+## 🚀 Running the Project Locally
+
+## 🚀 Running the Project Locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app will be available at:  
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+📌 **Notes**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project emphasizes restraint and intent over complexity.  
+Every design and animation choice was made to support the content and the emotional context it lives in.
 
-## Learn More
+© 2024 KEX-03
+All rights reserved.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
