@@ -50,7 +50,7 @@ All animations are:
 ---
 
 ## 📂 Project Structure
-
+```txt
 components/
 ├─ Header.tsx
 ├─ HeroSection.tsx
@@ -66,7 +66,7 @@ components/
 
 Each section is built as a reusable, self-contained component with consistent styling and motion patterns.
 
----
+```
 
 ## ♿ Accessibility Considerations
 
