@@ -4,9 +4,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#5F7C8A",     // Soft Sage
-        secondary: "#ECEFF1",   // Warm Off-White
-        accent: "#C79AA0",      // Muted clay Beige
+        primary: "#5F7C8A",     
+        secondary: "#ECEFF1",   
+        accent: "#C79AA0",      
 
         textPrimary: "#263238",
         textMuted: "#6B747C ",

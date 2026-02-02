@@ -8,21 +8,21 @@ const specialties = [
     description:
       "Support for adults experiencing persistent worry, overthinking, panic symptoms, or chronic stress. This work focuses on understanding how anxiety shows up both mentally and physically, and developing tools to feel more grounded, regulated, and present in daily life. Sessions integrate evidence-based approaches such as CBT, mindfulness, and body-oriented techniques.",
     image:
-      "https://plus.unsplash.com/premium_photo-1664284793428-df1f205642f1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1689177357589-fb06fc00da07?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "Trauma-Informed Therapy",
     description:
       "Therapy for adults impacted by past experiences, including single-incident trauma or long-standing patterns related to childhood, relationships, or chronic stress. This approach is paced carefully, with an emphasis on safety, stabilization, and nervous system regulation. Trauma work may include EMDR and somatic practices to support healing without re-traumatization.",
     image:
-      "https://plus.unsplash.com/premium_photo-1672292536199-7a4cf2b78318?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1666299236823-92c5c305b164?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "Burnout & High-Achiever Support",
     description:
       "Designed for professionals, creatives, and high-functioning individuals experiencing emotional exhaustion, perfectionism, or internal pressure. Therapy provides space to slow down, reconnect with yourself, and explore more sustainable ways of working and living—without sacrificing your values or well-being.",
     image:
-      "https://plus.unsplash.com/premium_photo-1710361778521-255f338ad5d5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1665203618989-e04554a539b1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
 

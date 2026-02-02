@@ -67,8 +67,9 @@ export function FAQ() {
                       onClick={() =>
                         setOpenIndex(isOpen ? null : index)
                       }
-                      className="w-full flex items-center justify-between text-left text-textPrimary font-medium"
+                      className="w-full flex items-center justify-between text-left text-textPrimary font-medium cursor-pointer"
                     >
+
                       <span className="pl-2">{item.question}</span>
 
                       <motion.span

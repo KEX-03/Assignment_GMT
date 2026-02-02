@@ -48,8 +48,9 @@ export function ProfessionalBackground() {
                   onClick={() =>
                     setOpenIndex(isOpen ? null : index)
                   }
-                  className="w-full flex items-center justify-between text-left font-medium text-textPrimary"
+                  className="w-full flex items-center justify-between text-left text-textPrimary font-medium cursor-pointer"
                 >
+
                   <span>{item.title}</span>
 
                   <motion.span
