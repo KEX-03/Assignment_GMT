@@ -79,8 +79,6 @@ Each section is built as a reusable, self-contained component with consistent st
 
 ## 🚀 Running the Project Locally
 
-## 🚀 Running the Project Locally
-
 ```bash
 npm install
 npm run dev
