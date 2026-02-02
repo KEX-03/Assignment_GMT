@@ -21,7 +21,7 @@ export function Contact() {
           href="/contact"
           className="inline-flex items-center justify-center px-10 py-4 rounded-full bg-white text-black font-medium hover:text-white hover:bg-primary transition"
         >
-          Get in touch
+          Request a Consultation
         </a>
 
       </div>

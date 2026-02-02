@@ -18,15 +18,11 @@ export function HeroSection() {
         <div className="text-center lg:text-left flex flex-col items-center lg:items-start gap-6">
           <div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif leading-tight">
-            Live your life 
-            <br /> 
-            in full bloom
+            Therapy for Anxiety, Trauma, and Burnout in Santa Monica, CA
           </h1>
 
           <p className="text-lg text-gray-600">
-            Therapy for adults in Santa Monica, California
-            <br />
-            Supporting anxiety, trauma, and burnout with care and depth.
+            Compassionate, evidence-based therapy for adults who appear capable on the outside—but feel overwhelmed, tense, or emotionally exhausted within.
           </p>
           </div>
           <div className="flex justify-center items-center">

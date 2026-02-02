@@ -16,9 +16,9 @@ export default function Home() {
     <Header />    
     <main className="w-full">
       <HeroSection />
+      <AboutMe />
       <MyApproach />
       <Services />
-      <AboutMe />
       <OverwhelmSupport />
       <OurOffice /> 
       <FAQ />

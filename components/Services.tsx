@@ -4,7 +4,7 @@ const specialties = [
     description:
       "Support for adults experiencing persistent worry, overthinking, panic symptoms, or chronic stress. This work focuses on understanding how anxiety shows up both mentally and physically, and developing tools to feel more grounded, regulated, and present in daily life. Sessions integrate evidence-based approaches such as CBT, mindfulness, and body-oriented techniques.",
     image:
-      "https://plus.unsplash.com/premium_photo-1661558876409-8d644bfb0a29?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1664284793428-df1f205642f1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "Trauma-Informed Therapy",
@@ -24,7 +24,7 @@ const specialties = [
 
 export function Services() {
   return (
-    <section className="w-full bg-white">
+    <section className="w-full bg-secondary">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-28">
 
         {/* Section Title */}
@@ -37,7 +37,7 @@ export function Services() {
           {specialties.map((item) => (
             <li
               key={item.title}
-              className="border border-borderSubtle bg-secondary p-6 flex flex-col justify-between"
+              className="border border-borderSubtle bg-accent/30 p-6 flex flex-col justify-between"
             >
               {/* Text */}
               <div>

@@ -4,20 +4,6 @@ export function AboutMe() {
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
 
-          {/* Images */}
-          <div className="relative flex justify-center lg:justify-end">
-
-            {/* Circular accent image */}
-            <div className="w-full max-w-md">
-              <img
-                src="/images/Dr. Maya Reynolds.png"
-                alt="Dr. Maya Reynolds"
-                className="w-full h-auto object-cover rounded-2xl"
-              />
-            </div>
-          </div>
-
-          {/* Text */}
           <div className="max-w-xl flex flex-col gap-6">
             <h2 className="font-serif text-4xl text-primary">
               Hi, I’m Dr. Maya Reynolds.
@@ -34,7 +20,7 @@ export function AboutMe() {
               Together, we’ll work toward greater insight, emotional regulation, and more sustainable ways of living and relating to yourself.
             </p>
 
-            <div className="mt-6">
+            <div className="mt-6 flex flex-col items-center">
               <a
                 href="/contact"
                 className="inline-flex px-8 py-3 bg-primary text-white rounded-full hover:bg-accent/90 transition"
@@ -43,7 +29,13 @@ export function AboutMe() {
               </a>
             </div>
           </div>
-
+          <div className="relative flex justify-center lg:justify-end">
+              <img
+                src="/images/Dr. Maya Reynolds.png"
+                alt="Dr. Maya Reynolds"
+                className="w-full h-auto object-cover rounded-2xl"
+              />
+          </div>
         </div>
       </div>
     </section>
