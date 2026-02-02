@@ -7,7 +7,7 @@ The goal of this homepage is to demonstrate how layout, typography, and subtle a
 
 ---
 
-## ✨ Design & Experience Goals
+## Design & Experience Goals
 
 - Create a **calm, grounded visual language** suitable for a therapy practice
 - Use **motion intentionally**, only where it adds clarity or emotional pacing
@@ -17,7 +17,7 @@ The goal of this homepage is to demonstrate how layout, typography, and subtle a
 
 ---
 
-## 🧠 Motion & Interaction Philosophy
+## Motion & Interaction Philosophy
 
 Animations in this project follow a clear hierarchy:
 
@@ -40,7 +40,7 @@ All animations are:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Next.js (App Router)**
 - **React**
@@ -49,7 +49,7 @@ All animations are:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```txt
 components/
 ├─ Header.tsx
@@ -68,7 +68,7 @@ Each section is built as a reusable, self-contained component with consistent st
 
 ```
 
-## ♿ Accessibility Considerations
+## Accessibility Considerations
 
 - Clear visual hierarchy and readable contrast
 - Keyboard-friendly interactive elements
@@ -77,7 +77,7 @@ Each section is built as a reusable, self-contained component with consistent st
 
 ---
 
-## 🚀 Running the Project Locally
+## Running the Project Locally
 
 ```bash
 npm install
@@ -87,7 +87,7 @@ npm run dev
 The app will be available at:  
 http://localhost:3000
 
-📌 **Notes**
+**Notes**
 
 This project emphasizes restraint and intent over complexity.  
 Every design and animation choice was made to support the content and the emotional context it lives in.
