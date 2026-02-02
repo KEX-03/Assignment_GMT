@@ -1,6 +1,6 @@
 export function HeroSection() {
   return (
-    <section className="relative w-full min-h-screen mt-10 flex items-center justify-center bg-white overflow-hidden">
+    <section className="relative w-full min-h-screen mt-18 mb-10 flex items-center justify-center bg-white overflow-hidden">
       <div className="max-w-7xl w-full px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         
         {/* Image */}
