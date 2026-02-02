@@ -4,13 +4,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#3A5F5A",     // Deep sage
-        secondary: "#F4F1EC",   // Warm sand
-        accent: "#C48A6A",      // Muted clay
+        primary: "#5F7C8A",     // Soft Sage
+        secondary: "#ECEFF1",   // Warm Off-White
+        accent: "#C79AA0",      // Muted clay Beige
 
-        textPrimary: "#1F2933",
-        textMuted: "#6B7280",
-        borderSubtle: "#E5E7EB",
+        textPrimary: "#263238",
+        textMuted: "#6B747C ",
+        borderSubtle: "#D4DBE0",
       },
       fontFamily: {
         serif: ["var(--font-serif)", "serif"],

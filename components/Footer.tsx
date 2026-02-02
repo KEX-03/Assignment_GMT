@@ -94,7 +94,7 @@ export function Footer() {
           </p>
 
           <p className="text-xs text-textMuted">
-            All Rights Reserved © 2024 Grow My Therapy, LLC.
+            All Rights Reserved © 2026 Grow My Therapy, LLC.
           </p>
         </div>
       </section>
