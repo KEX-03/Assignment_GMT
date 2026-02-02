@@ -10,12 +10,12 @@ export default function OurOffice() {
           </h2>
 
           <p className="text-lg text-textMuted leading-relaxed max-w-xl">
-            Dr. Maya Reynolds’s Santa Monica office is designed to feel calm,
+            Our office in Santa Monica is designed to feel calm,
             private, and grounding—a space where you can slow down and feel
             supported from the moment you arrive.
           </p>
 
-          <p className="text-base text-textMuted leading-relaxed max-w-xl">
+          <p className="text-lg text-textMuted leading-relaxed max-w-xl">
             The environment is intentionally uncluttered, filled with natural
             light, soft textures, and neutral tones to help create a sense of
             ease and safety. Clients often share that the space itself helps
